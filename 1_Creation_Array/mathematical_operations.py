@@ -20,4 +20,15 @@ print(index_of_max)  # 5.5
 index_of_min = my_array.index(min_value)
 print(index_of_min)  # 0
 
+# statical Analysis
+mean_value = np.mean(my_array)
+print(mean_value)  # 5.5
 
+median_value = np.median(my_array)
+print(median_value)  # 5.5
+
+std_deviation = np.std(my_array)
+print(std_deviation)  # 2.8722813232690143
+
+correlation_matrix = np.corrcoef(my_array)
+print(correlation_matrix) # 1.0

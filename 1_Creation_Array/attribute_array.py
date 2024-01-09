@@ -37,3 +37,18 @@ print(matrix_product)
 [[19 22]
  [43 50]]
 """
+
+new_array = np.array([[1, 2, 10], [3, 4, 20]])
+print(np.shape(new_array))  # (2, 3)
+
+dimension = new_array.ndim
+print(dimension)  # 2
+
+size = new_array.size
+print(size)  # 6
+
+data_type = new_array.dtype
+print(data_type)  # int32
+
+item_size = new_array.itemsize
+print(item_size)  # 4
